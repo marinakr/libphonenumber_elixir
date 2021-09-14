@@ -12,6 +12,9 @@ defmodule Libphonenumber do
       iex> Libphonenumber.mobile_phone_valid?("+380938562241")
       true
 
+      iex> Libphonenumber.mobile_phone_valid?("+380338560241")
+      false
+
   """
   def mobile_phone_valid?(phone_number) do
     :libphonenumbers.is_mobile_phone_valid(phone_number)
