@@ -1,5 +1,7 @@
 # Libphonenumber
 
+[![Hex.pm](https://img.shields.io/hexpm/v/ecto.svg)](https://hex.pm/packages/libphonenumber)
+
 Elixir partial version of [libphonenumber](https://github.com/googlei18n/libphonenumber) by Google. Usage:
 
 Check is phone number ([MSISDN](https://en.wikipedia.org/wiki/MSISDN))
@@ -36,7 +38,7 @@ iex> Libphonenumber.mobile_phone_number_info("+380238562241")
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+The package can be installed
 by adding `libphonenumber` to your list of dependencies in `mix.exs`:
 
 ```elixir
@@ -48,5 +50,5 @@ end
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm/libphonenumber/). Once published, the docs can
+and published on [HexDocs](https://hexdocs.pm/libphonenumber/). The docs can
 be found at [https://hexdocs.pm/libphonenumber](https://hexdocs.pm/libphonenumber).

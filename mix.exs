@@ -44,8 +44,7 @@ defmodule Libphonenumber.MixProject do
     [
       licenses: ["Apache-2.0"],
       links: %{
-        "LibPhonNumberErlang" => "https://github.com/marinakr/libphonenumber_elixir",
-        "Github" => "https://github.com/marinakr/libphonenumber_erlang"
+        "github" => "https://github.com/marinakr/libphonenumber_erlang"
       }
     ]
   end
