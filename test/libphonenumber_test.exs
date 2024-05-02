@@ -45,7 +45,7 @@ defmodule LibphonenumberTest do
                  %{"3" => "No country code info found"},
                  %{"38" => "No country code info found"},
                  %{
-                   "380" => "Pattern '(?:50|6[36-8]|7[1-3]|9[1-9])\\d{7}' compilation failed"
+                   "380" => "Pattern '(?:39|50|6[36-8]|7[1-357]|9[1-9])\\d{7}' compilation failed"
                  }
                ],
                valid: false
