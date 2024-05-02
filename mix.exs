@@ -4,7 +4,7 @@ defmodule Libphonenumber.MixProject do
   def project do
     [
       app: :libphonenumber,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       description: description(),
@@ -35,7 +35,7 @@ defmodule Libphonenumber.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:libphonenumber_erlang, ">= 0.2.0"},
+      {:libphonenumber_erlang, "~> 0.2.1"},
       {:ex_doc, "~> 0.24", only: :dev, runtime: false}
     ]
   end
